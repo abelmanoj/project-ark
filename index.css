@@ -1,0 +1,79 @@
+/*Righteous Font*/ @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+/*Syncopate Font*/@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap');
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+hr {
+    position: relative;
+    top: 30px;
+    border: 2px solid;
+    width: 1400px;
+    color: black;
+}
+
+#ark-webpages-title {
+    font-family: 'Syncopate', sans-serif;
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 65px;
+    color: black;
+
+}
+
+#selection-catagory {
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#projects-button {
+    font-family: 'Righteous', sans-serif;
+    border: 0;
+    background-color: rgb(229, 229, 229);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    font-size: 38px;
+    line-height: 30px;
+    padding: 30px 40px 30px 40px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+#projects-button:hover {
+    background-color:rgb(204, 204, 204);
+}
+
+#projects-button:active {
+    background-color: rgb(186, 186, 186);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
