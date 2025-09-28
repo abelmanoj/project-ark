@@ -1,0 +1,79 @@
+/*Syncopate Font*/@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap');
+/*Righteous Font*/ @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+#main-title-projects {
+    font-family: 'Syncopate', sans-serif;
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 65px;
+    color: black;
+
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+hr {
+    position: relative;
+    top: 30px;
+    border: 2px solid;
+    width: 1400px;
+    color: black;
+}
+
+.button-project-selection-block {
+    position: relative;
+    top: 65px;
+    display: flex;
+    grid-column: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.button-selectors {
+    font-family: 'Righteous', sans-serif;
+    border: 0;
+    background-color: rgb(229, 229, 229);
+    color: black;
+    border-radius: 20px;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 20px 30px 20px 30px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.button-selectors:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+.button-selectors:active {
+    background-color: rgb(186, 186, 186);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
