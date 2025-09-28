@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="project-scoreboard.css">
+        <title>Score Board | A.R.K. Webpages</title>
+    </head>
+
+    <body>
+        <h1 id="main-title-scoreboard">Scoreboard</h1>
+
+
+        <div class="container-buttons">
+            <div>
+                <h3 class="subheading-scoreboard">HOME</h3>
+                <p id="numHome-el">0</p>
+                <div>
+                    <Button class="button-design-positive" onclick="incrementHomePlus1()">+ 1</Button>
+                    <button class="button-design-positive" onclick="incrementHomePlus2()">+ 2</button>
+                    <button class="button-design-positive" onclick="incrementHomePlus3()">+ 3</button>
+                </div>
+                <div>
+                    <button class="button-design-negative" onclick="incrementHomeMinus1()">- 1</button>
+                    <button class="button-design-negative" onclick="incrementHomeMinus2()">- 2</button>
+                    <button class="button-design-negative" onclick="incrementHomeMinus3()">- 3</button>
+                </div>
+                
+            </div>
+            <div id="resetUniversal">
+                <button id="button-design-newgame" onclick="resetUniversalScore()">New Game</button>
+            </div>
+            <div>
+                <h3 class="subheading-scoreboard">GUEST</h3>
+                <p id="numGuest-el">0</p>
+                <div>
+                    <button class="button-design-positive" onclick="incrementGuestPlus1()">+ 1</button>
+                    <button class="button-design-positive" onclick="incrementGuestPlus2()">+ 2</button>
+                    <button class="button-design-positive" onclick="incrementGuestPlus3()">+ 3</button>
+                </div>
+                <div>
+                    <button class="button-design-negative" onclick="incrementGuestMinus1()">- 1</button>
+                    <button class="button-design-negative" onclick="incrementGuestMinus2()">- 2</button>
+                    <button class="button-design-negative" onclick="incrementGuestMinus3()">- 3</button>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="project-scoreboard.js"></script>
+    </body>
+</html>

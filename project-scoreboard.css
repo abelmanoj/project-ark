@@ -1,0 +1,118 @@
+/*Orbitron Font*/ @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+/*Arvo Font*/ @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Orbitron:wght@500&display=swap');
+/*Rajdhani Font*/ @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+
+body {
+    background-color: #1B244A;
+}
+
+.container-buttons {
+    position: relative;
+    bottom: 75px;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#resetUniversal {
+    position: relative;
+    top: 100px;
+}
+
+#main-title-scoreboard {
+    font-size: 50px;
+    font-family: 'Arvo', sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.subheading-scoreboard {
+    font-family: 'Rajdhani', sans-serif;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}
+
+#numHome-el {
+    background-color: black;
+    color: #F94F6D;
+    font-size: 85px;
+    font-family: 'Orbitron', sans-serif;
+    padding: 60px 10px 60px 10px;
+    text-align: center;
+}
+
+#numGuest-el {
+    background-color: black;
+    color: #F94F6D;
+    font-size: 85px;
+    font-family: 'Orbitron', sans-serif;
+    padding: 60px 10px 60px 10px; 
+    text-align: center;
+}
+
+.button-design-positive {
+    border: 40;
+    border-radius: 15px;
+    line-height: 1.5;
+    color: white;
+    background-color: #1B244A;
+    border-color: white;
+    padding: 30px;
+    font-size: 25px;
+    align-items: center;
+    margin: 10px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.button-design-negative {
+    border: 40;
+    border-radius: 15px;
+    line-height: 1.5;
+    color: white;
+    background-color: #1B244A;
+    border-color: white;
+    padding: 8.25%;
+    font-size: 25px;
+    align-items: center;
+    margin: 0.5em;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+
+}
+
+#button-design-newgame {
+    position: relative;
+    top: 0px;
+    text-align: center;
+    border: 40;
+    border-radius: 10px;
+    line-height: 1.5;
+    color: white;
+    background-color: #1B244A;
+    border-color: white;
+    padding: 25px;
+    font-size: 25px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.button-design-positive:hover {
+    background-color: #2f3b6b;
+}
+
+.button-design-negative:hover {
+    background-color: #2f3b6b;
+}
+
+#button-design-newgame:hover {
+    background-color: #2f3b6b;
+}
+
