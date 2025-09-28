@@ -4,3 +4,5 @@ This is my personal project and it encompasses the following:
 2. Scoreboard application
 3. Password generator application
 4. Money incrementing webpage
+
+If you want to try this project, run the index.html file.
