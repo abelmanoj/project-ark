@@ -5,4 +5,4 @@ This is my personal project and it encompasses the following:
 3. Password generator application
 4. Money incrementing webpage
 
-If you want to try this project, run the index.html file.
+If you want to view this project, run the index.html file.
